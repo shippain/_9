@@ -1,4 +1,4 @@
-package gsu.math.alex.lab.Model;
+package gsu.math.alex.lab.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

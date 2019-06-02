@@ -1,4 +1,4 @@
-package gsu.math.alex.lab.Repasitory;
+package gsu.math.alex.lab.repository;
 
 import lombok.SneakyThrows;
 
@@ -10,7 +10,7 @@ public class ConnectionFactory {
     private static Connection connection;
 
     @SneakyThrows
-    public Connection getConnectoin(){
+    public Connection getConnection(){
         if (connection == null) {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(
